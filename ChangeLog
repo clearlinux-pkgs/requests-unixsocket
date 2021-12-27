@@ -1,6 +1,23 @@
 CHANGES
 =======
 
+0.3.0
+-----
+
+* Remove urllib3 dep
+* Update setup.cfg metadata - => \_
+* Remove Vagrantfile
+* Remove .travis.yml
+* Update tox to work
+* README.rst: Update badge from Travis => GH
+* Fix warning from waitress
+* Add GitHub Actions tests
+* Remove --pep8 option to pytest
+* Bump waitress from 1.4.2 to 1.4.3
+* Bump py from 1.4.32 to 1.10.0
+* Bump waitress from 0.9.0 to 1.4.2
+* Allow UnixAdapter to accept max\_retries parameter
+
 0.2.0
 -----
 
@@ -37,12 +54,12 @@ CHANGES
 * Non case sensitive url comparison in tests
 * Pull in more recent code from docker-py
 * Fix PyPI badge
-* Override HTTPAdapter.request_url
+* Override HTTPAdapter.request\_url
 
 0.1.5
 -----
 
-* Fix test_unix_domain_adapter_connection_proxies_error
+* Fix test\_unix\_domain\_adapter\_connection\_proxies\_error
 * .travis.yml tweaks
 * Remove py32; Add py35
 * Only reject proxies if they are relevant (which should be never)
@@ -71,7 +88,7 @@ CHANGES
 
 * Tweak monkeypatch code
 * Move/expose testutils like UnixSocketServerThread
-* Make monkeypatch url_scheme arg optional
+* Make monkeypatch url\_scheme arg optional
 
 0.1.1
 -----
